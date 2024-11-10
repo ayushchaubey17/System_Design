@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a47eb799-f2a7-4fdb-ae2b-7d5b0b4acbd6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/adaptor_Patterns/AdaptorCharger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adaptor_Patterns/AppleCharger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adaptor_Patterns/AyushAndroidCharger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adaptor_Patterns/Iphone13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adaptor_Patterns/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adaptor_Patterns/SamsungCharger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adaptor_Patterns/SamsungS23.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iterator_Pattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iterator_Pattern/MyIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iterator_Pattern/MyIteratorImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iterator_Pattern/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iterator_Pattern/UserManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/observer_Pattern/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer_Pattern/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstract_Factory_Pattern/BackEndAndroidDevloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstract_Factory_Pattern/BackEndWebDevloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstract_Factory_Pattern/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstract_Factory_Pattern/FrontEndAndroidDevloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstract_Factory_Pattern/FrontEndWebDevloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstract_Factory_Pattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstract_Factory_Pattern/factory/AndroidDeveloperFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstract_Factory_Pattern/factory/EmployeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstract_Factory_Pattern/factory/EmployeeAbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstract_Factory_Pattern/factory/WebDeveloperFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +48,25 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.adaptor_Patterns.Main">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Abstract_Factory_Pattern" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Abstract_Factory_Pattern.Main">
+    <configuration name="Abstract_Factory_Pattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Abstract_Factory_Pattern.Main" />
+      <module name="design_Pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Abstract_Factory_Pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="observer_Pattern.Demo" />
       <module name="design_Pattern" />
@@ -92,19 +106,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="buildeer_Pattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="buildeer_Pattern.Main" />
-      <module name="design_Pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="buildeer_Pattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="prototype_Pattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="prototype_Pattern.Main" />
       <module name="design_Pattern" />
@@ -120,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Abstract_Factory_Pattern.Main" />
         <item itemvalue="Application.adaptor_Patterns.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.prototype_Pattern.Main" />
-        <item itemvalue="Application.buildeer_Pattern.Main" />
       </list>
     </recent_temporary>
   </component>
